@@ -1,5 +1,7 @@
 package models;
 
+import java.util.Date;
+
 public class DHTSensor {
     String id;
     Float temperature;
@@ -43,5 +45,9 @@ public class DHTSensor {
 
     public void setEpochTime(Long epochTime) {
         this.epochTime = epochTime;
+    }
+
+    public Date epochToDate() {
+        return new Date((long)getEpochTime()*1000);
     }
 }
