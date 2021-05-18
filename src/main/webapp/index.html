@@ -7,7 +7,7 @@
   <style>
     /* Style the body */
     body {
-      font-family: Arial,serif;
+      font-family: Arial;
       margin: 0;
       background-color: #FDF8F5;
     }
@@ -20,6 +20,7 @@
       color: white;
       font-size: 50px;
     }
+
     .button {
       border-radius: 4px;
       background-color: #A3BCB6;
@@ -62,6 +63,48 @@
       opacity: 1;
       right: 0;
     }
+    .button2 {
+      border-radius: 4px;
+      background-color: #A3BCB6;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+
+      position: absolute;
+      right: 400px;
+      top: 450px;
+    }
+
+    .button2 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button2 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button2:hover span {
+      padding-right: 25px;
+    }
+
+    .button2:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
 
     /* Page Content */
     .content {padding:10px;}
@@ -76,6 +119,10 @@
 
 <form action="">
   <button class="button"><span>Data </span></button>
+</form>
+
+<form action="">
+  <button class="button2"><span>Realtime </span></button>
 </form>
 
 
