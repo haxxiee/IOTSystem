@@ -25,17 +25,6 @@ public class RealtimeServlet extends HttpServlet{
                 "    <title>Mange Schmidt</title>\n" +
                 "  <link rel=\"stylesheet\" href=\"realtime.css\">\n" +
                 "</head>\n" +
-                "<style>\n" +
-                "  .timetext{\n" +
-                "    color: white;\n" +
-                "    font-family: Helvetica, sans-serif;\n" +
-                "    font-size: 50px;\n" +
-                "\n" +
-                "    position: absolute;\n" +
-                "    left: 30%;\n" +
-                "    top: 65%;\n" +
-                "  }\n" +
-                "</style>" +
                 "<body>");
 
         out.println("  <div class=\"temp\">\n" +
