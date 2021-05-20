@@ -1,0 +1,45 @@
+body {
+    background-color: #A3BCB6;
+}
+
+.hum {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+
+    position: absolute;
+    right: 400px;
+    top: 150px;
+}
+.temp {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+
+
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+.celsiusText {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+
+    position: absolute;
+    left: 500px;
+    top: 450px;
+
+}
+
+.humidityText {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+
+
+    position: absolute;
+    right: 500px;
+    top: 450px;
+}
